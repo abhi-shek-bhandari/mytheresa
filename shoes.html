@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        .container{
+            width: 97%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .leftcontainer{
+            width: 17%;
+            height: 1000px;
+            padding-top: 10px;
+            padding-left: 10px;
+
+        }
+        .leftcontainer p{
+            padding-left: 5px;
+            line-height: 8px;
+        }
+        .leftcontainer header{
+            font-weight: 700;
+        }
+        .rightcontainer{
+            width: 78%;
+            /* border: 1px solid teal; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+        .rightcontainer img{
+            width: 256px;
+        }
+        .rightcontainer>div h5+p+span{
+            text-decoration: line-through;
+        }
+        .rightcontainer>div button{
+            border: transparent;
+            background: lightgray;
+            margin: auto;
+            padding: 7px;
+            display: block;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav id="topnav">
+        <div>
+            <ul>
+                <li>WOMEN</li>
+                <li>MEN</li>
+                <li>KIDS</li>
+                <li>LIFE</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Welcome to Mytheresa</li>
+                <li><a href="login.html">My Account</a></li>
+                <li>My Wishlist</li>
+                <li>New zealand | English</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="shopping-cart">
+        <a href="index.html"><img id="logo-img" src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128" alt=""></a>
+        <a href="cart.html">
+            <h2 id="shopping-heading"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+              </svg></h2>
+        </a>
+        
+    </div>
+    <nav id="bottomnavbar">
+        <div>
+            <ul>
+                <li>NEW ARRIVALS</li>
+                <li>DESIGNERS</li>
+                <li>CLOTHING</li>
+                <li><a href="shoes.html">SHOES</a></li>
+                <li>BAGS</li>
+                <li>ACCESSORIES</li>
+                <li>NEW SEASON</li>
+                <li>VACATION SHOP</li>
+                <li>SALE</li>
+            </ul>
+        </div>
+        <div>
+            <form id="searchform">
+                <input type="text" placeholder="Search for...">
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="leftcontainer">
+            <header>SHOES</header>
+                <p>Sneakers</p>
+                <p>Sandals & slides</p>
+                <p>Loafers</p>
+                <p>Boots</p>
+                <p>Formal shoes</p>
+                <p>Derby shoes</p>
+                <p>Slippers</p>
+                <p>Espadrilles</p>
+                <p>Summer Shoes</p>
+            <header>Reductions By %</header>
+                <p>30%</p>
+                <p>40%</p>
+                <p>50%</p>
+                <p>60%</p>
+            <header>Designer</header>
+                <p>A-Cold-Wall</p>
+                <p>Acne Studios</p>
+                <p>Adidas</p>
+                <p>Alanui</p>
+                <p>Alexander McQueen</p>
+                <p>Amiri</p>
+                <p>And Wander</p>
+                <p>Asics Sportstyle</p>
+                <p>Auralee</p>
+                <p>Balenciaga</p>
+                <p>Balmain</p>
+                <p>Berluti</p>
+                <p>Birkenstock Men</p>
+                <p>Bode</p>
+                <p>Bottega Veneta</p>
+                <p>Brunello Cucinelli</p>
+            <header>Size</header>
+                <p>M</p>
+                <p>XL</p>
+                <p>XL</p>
+                <p>EU 36</p>
+                <p>EU 37</p>
+                <p>EU 38</p>
+                <p>EU 39</p>
+                <p>EU 40</p>
+            <header>Color</header>
+                <p>Beige</p>
+                <p>Black</p>
+                <p>Blue</p>
+                <p>Brown</p>
+                <p>Gold</p>
+                <p>Green</p>
+                <p>Grey</p>
+                <p>Metallic</p>
+            <header>Pattern</header>
+                <p>Camouflage</p>
+                <p>Checked</p>
+                <p>Embroidered</p>
+                <p>Floral</p>
+                <p>Patterned</p>
+                <p>Plain</p>
+                <p>Printed</p>
+        </div>
+        <div class="rightcontainer">
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="footerdiv">
+            <div>
+                <header>SERVICE & SECURITY</header>
+                <h3>Fast delivery</h3>
+                <p>Delivery within 2 business days</p>
+                <h3>Free returns within 30 days</h3>
+                <p>Convenient return service</p>
+                <h3>Secure payment and data protection</h3>
+                <p>SSL encryption for secure transactions and personal data</p>
+            </div>
+            <div>
+                <header>MYTHERESA</header>
+                <p>About us</p>
+                <p>Trust & services</p>
+                <p>Sustainability</p>
+                <p>Press</p>
+                <p>Careers</p>
+                <p>Investor Relations</p>
+                <p>Affiliates</p>
+            </div>
+            <div>
+                <header>CUSTOMER CARE</header>
+                <p>Contact us</p>
+                <p>Shipping information</p>
+                <p>Secure payment</p>
+                <p>Exchanges</p>
+                <p>Returns</p>
+                <p>After sale service</p>
+                <p>Gift card</p>
+            </div>
+            <div>
+                <header>GET TREND UPDATES, STYLE TIPS AND MORE</header>
+                <input type="text" placeholder="Enter your Email address">
+                <button>SIGN UP</button>
+                <h4>Wish List</h4>
+                <p>Receive personal notifications</p>
+                <h4>Follow us on</h4>
+
+                <!-- //icons -->
+                <ul>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-pinterest"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-mobile"></i></li>
+                    <li><i class="fa-brands fa-wechat"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <div>
+                <h4>payment methods:</h4>
+                <img src="/images/Screen Shot 2022-06-17 at 1.38.52 AM.png" alt="">
+        </div>
+        <h4>copyright © 2006-2022 mytheresa.com</h4>
+    </footer>
+</body>
+</html>
+<script src="shoes.js"></script>

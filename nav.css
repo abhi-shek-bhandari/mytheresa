@@ -1,0 +1,107 @@
+#topnav{
+    display: flex;
+    justify-content: space-between;
+}
+#topnav div ul li{
+    display: inline;
+    margin: 0px 20px 0px 0px;
+}
+#topnav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#topnav div ul li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo-img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+}
+#shopping-cart{
+    height: 50px;
+}
+#shopping-heading{
+    position: absolute;
+    right: 30px;
+    top: 78px;
+    font-weight: 500;
+}
+#shopping-heading::before{
+    content: "Shopping Bag ";
+}
+#bottomnavbar{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#bottomnavbar>div>ul li{
+    display: inline;
+    margin: 10px 7px 0px 0px;
+    font-size: 13px;
+}
+#searchform{    
+    position: absolute;
+    padding: 6px;
+    right: 20px;
+    top: 160px;
+}
+#searchform input{
+    padding: 7px;
+}
+#searchform button{
+    position: absolute;
+    background-color: transparent;
+    font-size: 17px;
+    border: none;     
+    cursor: pointer;
+    right: 13px;
+    top: 10px;
+}
+#footerdiv{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   }
+   #footerdiv>div{
+    width: 20%;
+    line-height: 20px;
+   }
+   #footerdiv>div>header{
+    font-weight: 600;
+   }
+   #footerdiv>div>h3{
+    margin: 9px;
+   }
+   #footerdiv>div>h4{
+    margin: 9px;
+   }
+   #footerdiv>div>p{
+    margin: 9px;
+    color: gray;
+   }
+   #footerdiv>div:last-child{
+    width: 21%;
+   }
+   #footerdiv>div>button{
+    width: 70px;
+    height: 20px;
+    border: transparent;
+    padding: 2px;
+   }
+   #footerdiv>div li{
+    display: inline;
+   }
+   #footerdiv+hr+div{
+    display: flex;
+   }
+   
